@@ -6,3 +6,23 @@
 # In your final submission: 
 #  - Do not print anything extraneous!
 #  - Do not put anything but pass in main()
+
+def cumulative_sum(list1):
+	sum = 0
+	list2=[]
+	for i in list1:
+		sum+= i
+		list2.append(sum)
+	return(list2)
+
+	
+
+
+
+def main():
+	list1=[1,2,3]
+	print(cumulative_sum(list1))
+
+
+if __name__ == '__main__':
+    main()
